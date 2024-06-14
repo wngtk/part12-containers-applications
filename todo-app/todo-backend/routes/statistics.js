@@ -3,10 +3,12 @@ const redis = require('../redis')
 
 statisticsRouter = Router()
 
-redis.setAsync('added_todos', 0)
-
 statisticsRouter.get('/', async(req, res) => {
-    const result = await redis.getAsync('added_todos');
+    let result = await redis.getAsync('added_todos');
+    if (!result) {
+        result = 0
+        await redis.setAsync('added_todos', 0)
+    }
     res.json({ "added_todos": result })
 })
 
