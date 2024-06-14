@@ -1,0 +1,252 @@
+Script started on 2024-06-14 18:03:03+08:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="120" LINES="30"]
+[?2004h]0;fish /home/wngtk/dev/web/part12-containers-applications[30m(B[m[32m~/d/w/part12-containers-applications(B[m $ [K[39Cd[40C[38;5;26md[40C[30m(B[m[38;5;240mocker ps[40C[30m(B[m[38;5;26mo[38;5;240mcker ps[41C[30m(B[m[38;5;196mdo[38;5;240mcker ps[41C[30m(B[m[38;5;196mc[38;5;240mker ps[42C[30m(B[m[38;5;196mk[38;5;240mer ps[43C[30m(B[m[38;5;196me[38;5;240mr ps[44C[30m(B[m[38;5;196mr[38;5;240m ps[45C[30m(B[m[38;5;26mdocker[38;5;240m ps[45C[30m(B[m[38;5;26m [38;5;240mps[46C[30m(B[m [38;5;240mps[46C[30m(B[m[K[39Cc[40C[38;5;240mode .[40C[30m(B[m[38;5;196mc[38;5;240mode .[40C[30m(B[m[38;5;196md[30m(B[m[K[41C[41C[38;5;26mcd[41C[30m(B[m[38;5;26m [42C[30m(B[m [42C[38;5;240m..[42C[30m(B[mt[K[43C[38;5;39m[4mt[43C[30m(B[m[38;5;240modo-app/todo-backend/[43C[30m(B[m[38;5;39m[4modo-app/todo-backend/[64C[30m(B[m[64C
+[30m(B[m[?2004l]0;cd todo-app/todo-backend/ /home/wngtk/dev/web/part12-containers-applications[30m(B[m[2m⏎(B[m                                                                                                                       ⏎ [K[?2004h]0;fish /home/wngtk/dev/web/part12-containers-applications/todo-app/todo-backend[30m(B[m[32m~/d/w/p/t/todo-backend(B[m $ [K[25Cj[26C[38;5;240m part12[26C[30m(B[m[38;5;26mj[38;5;240m part12[26C[30m(B[m[K[25Cd[26C[38;5;26md[26C[30m(B[m[38;5;240mocker compose -f docker-compose.dev.yml down -v[26C[30m(B[m[38;5;26mo[38;5;240mcker compose -f docker-compose.dev.yml down -v[27C[30m(B[m[38;5;196mdo[38;5;240mcker compose -f docker-compose.dev.yml down -v[27C[30m(B[m[38;5;196mc[38;5;240mker compose -f docker-compose.dev.yml down -v[28C[30m(B[m[38;5;196mk[38;5;240mer compose -f docker-compose.dev.yml down -v[29C[30m(B[m[38;5;196me[38;5;240mr compose -f docker-compose.dev.yml down -v[30C[30m(B[m[38;5;196mr[38;5;240m compose -f docker-compose.dev.yml down -v[31C[30m(B[m[38;5;26mdocker[38;5;240m compose -f docker-compose.dev.yml down -v[31C[30m(B[m[38;5;26m compose -f docker-compose.dev.yml down -v[73C[30m(B[m[42D [38;5;39mcompose[30m(B[m [38;5;39m-f[30m(B[m [38;5;39m[4mdocker-compose.dev.yml[30m(B[m [38;5;39mdown[30m(B[m [38;5;39m-v[73C[30m(B[m[K[72C[K[71C[K[70C[K[69C[K[68C[38;5;39m[4mdo[68C[30m(B[m[K[67C[K[66Cu[67C[38;5;240mp -d[67C[30m(B[m[38;5;39m[4mu[38;5;240m[24mp -d[67C[30m(B[m[38;5;39m[4mp[38;5;240m[24m -d[68C[30m(B[m[38;5;39mup[38;5;240m -d[68C[30m(B[m[38;5;39m [38;5;240m-d[69C[30m(B[m [38;5;240m-d[69C[30m(B[m-[38;5;240md[70C[30m(B[m[38;5;39m-[38;5;240md[70C[30m(B[m[38;5;39md[71C[30m(B[m[71C
+[30m(B[m[?2004l]0;docker compose -f docker-compose.dev.yml up -d /home/wngtk/dev/web/part12-containers-applications/todo-app/todo-backend[30m(B[m[1A[1B[0G[?25l[+] Running 2/0
+ [32m✔[0m Network todo-backend_default      [32mCreated[0m                                                                       [34m0.0s [0m
+ [32m✔[0m Volume "todo-backend_mongo_data"  [32mCreated[0m                                                                       [34m0.0s [0m
+ [33m⠋[0m Container todo-backend-mongo-1    Creating                                                                      [34m0.0s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Network todo-backend_default      [32mCreated[0m                                                                       [34m0.0s [0m
+ [32m✔[0m Volume "todo-backend_mongo_data"  [32mCreated[0m                                                                       [34m0.0s [0m
+ [33m⠙[0m Container todo-backend-mongo-1    Starting                                                                      [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Network todo-backend_default      [32mCreated[0m                                                                       [34m0.0s [0m
+ [32m✔[0m Volume "todo-backend_mongo_data"  [32mCreated[0m                                                                       [34m0.0s [0m
+ [33m⠹[0m Container todo-backend-mongo-1    Starting                                                                      [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Network todo-backend_default      [32mCreated[0m                                                                       [34m0.0s [0m
+ [32m✔[0m Volume "todo-backend_mongo_data"  [32mCreated[0m                                                                       [34m0.0s [0m
+ [33m⠸[0m Container todo-backend-mongo-1    Starting                                                                      [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Network todo-backend_default      [32mCreated[0m                                                                       [34m0.0s [0m
+ [32m✔[0m Volume "todo-backend_mongo_data"  [32mCreated[0m                                                                       [34m0.0s [0m
+ [33m⠼[0m Container todo-backend-mongo-1    Starting                                                                      [34m0.4s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Network todo-backend_default      [32mCreated[0m                                                                       [34m0.0s [0m
+ [32m✔[0m Volume "todo-backend_mongo_data"  [32mCreated[0m                                                                       [34m0.0s [0m
+ [32m✔[0m Container todo-backend-mongo-1    [32mStarted[0m                                                                       [34m0.5s [0m
+[?25h[2m⏎(B[m                                                                                                                       ⏎ [K[?2004h]0;fish /home/wngtk/dev/web/part12-containers-applications/todo-app/todo-backend[30m(B[m[32m~/d/w/p/t/todo-backend(B[m $ [K[25Cd[26C[38;5;26md[26C[30m(B[m[38;5;240mocker compose -f docker-compose.dev.yml up -d[26C[30m(B[m[38;5;26mo[38;5;240mcker compose -f docker-compose.dev.yml up -d[27C[30m(B[m[38;5;196mdo[38;5;240mcker compose -f docker-compose.dev.yml up -d[27C[30m(B[m[38;5;196mc[38;5;240mker compose -f docker-compose.dev.yml up -d[28C[30m(B[m[38;5;196mk[38;5;240mer compose -f docker-compose.dev.yml up -d[29C[30m(B[m[38;5;196me[38;5;240mr compose -f docker-compose.dev.yml up -d[30C[30m(B[m[38;5;196mr[38;5;240m compose -f docker-compose.dev.yml up -d[31C[30m(B[m[38;5;26mdocker[38;5;240m compose -f docker-compose.dev.yml up -d[31C[30m(B[m[38;5;26m [38;5;240mcompose -f docker-compose.dev.yml up -d[32C[30m(B[m [38;5;240mcompose -f docker-compose.dev.yml up -d[32C[30m(B[me[K[33C[38;5;39me[33C[30m(B[m[38;5;39mx[34C[30m(B[m[38;5;39me[35C[30m(B[m[38;5;39mc[36C[30m(B[m[38;5;39m [37C[30m(B[m [37C-[38C[38;5;39m-[38C[30m(B[m[38;5;39mi[39C[30m(B[m[38;5;39mt[40C[30m(B[m[38;5;39m [41C[30m(B[m [41Ct[42C[38;5;39mt[42C[30m(B[m[38;5;39mo[43C[30m(B[m[38;5;39md[44C[30m(B[m[38;5;39mo[45C[30m(B[m[38;5;39m-[46C[30m(B[m[38;5;39mb[47C[30m(B[m[38;5;39mc[48C[30m(B[m[38;5;39mk[49C[30m(B[m[K[48C[K[47C[38;5;39ma[48C[30m(B[m[38;5;39mc[49C[30m(B[m[38;5;39mk[50C[30m(B[m[38;5;39me[51C[30m(B[m[38;5;39mn[52C[30m(B[m[38;5;39md[53C[30m(B[m[38;5;39m-[54C[30m(B[m[38;5;39mm[55C[30m(B[m[38;5;39mo[56C[30m(B[m[38;5;39mn[57C[30m(B[m[38;5;39mg[58C[30m(B[m[38;5;39mo[59C[30m(B[m[38;5;39m-[60C[30m(B[m[38;5;39m1[61C[30m(B[m[38;5;39m [62C[30m(B[m [62Cb[63C[38;5;39m[4mb[63C[30m(B[m[38;5;240min/[63C[30m(B[m[38;5;39m[4ma[30m(B[m[K[64C[38;5;39mba[64C[30m(B[m[38;5;39ms[65C[30m(B[m[38;5;39mh[66C[30m(B[m
+[30m(B[m[?2004l]0;docker exec -it todo-backend-mongo-1 bash /home/wngtk/dev/web/part12-containers-applications/todo-app/todo-backend[30m(B[m[?2004hroot@830d5c9e9ec9:/# ls
+[?2004lbin   data  docker-entrypoint-initdb.d	home	    lib    lib64   media  opt	root  sbin  sys  usr
+boot  dev   etc				js-yaml.js  lib32  libx32  mnt	  proc	run   srv   tmp  var
+[?2004hroot@830d5c9e9ec9:/# show    o mongos
+mongos     mongosh    mongostat  
+root@830d5c9e9ec9:/# mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	666c158d97683080e8a26a12
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+Using MongoDB:		7.0.11
+[1m[33mUsing Mongosh[0m:		2.2.6
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[1G[0Jtest> [7Gshow dbs
+Uncaught [1m[31mMongoServerError[0m[1m[31m[Unauthorized][0m: Command listDatabases requires authentication
+[1G[0Jtest> [7G
+[?2004hroot@830d5c9e9ec9:/# mongosh the_user
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/the_user?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	666c159a60960aca2ea26a12
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/the_user?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+Using MongoDB:		7.0.11
+[1m[33mUsing Mongosh[0m:		2.2.6
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+[1G[0J [1G[1G[0Jthe_user> [11Gshow dbs
+Uncaught [1m[31mMongoServerError[0m[1m[31m[Unauthorized][0m: Command listDatabases requires authentication
+[1G[0Jthe_user> [11G
+[?2004hroot@830d5c9e9ec9:/# cat /docker-entrypoint-initdb.d/mongo-init.js 
+[?2004ldb.createUser({
+  user: 'the_username',
+  pwd: 'the_password',
+  roles: [
+    {
+      role: 'dbOwner',
+      db: 'the_database',
+    },
+  ],
+});
+
+db.createCollection('todos');
+
+db.todos.insert({ text: 'Write code', done: true });
+db.todos.insert({ text: 'Learn about containers', done: false });[?2004hroot@830d5c9e9ec9:/# 
+[?2004l[?2004hroot@830d5c9e9ec9:/# 
+[?2004l[?2004hroot@830d5c9e9ec9:/# 
+[?2004l[?2004hroot@830d5c9e9ec9:/# 
+[?2004l[?2004hroot@830d5c9e9ec9:/# mongosh the_se u  usera name
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/the_username?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	666c15b8c2f72eedaca26a12
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/the_username?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+Using MongoDB:		7.0.11
+[1m[33mUsing Mongosh[0m:		2.2.6
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+[1G[0J [1G[1G[0Jthe_username> [15G
+[?2004hroot@830d5c9e9ec9:/# mongosh the_username[K--help
+[?2004l
+  $ mongosh [options] [db address] [file names (ending in .js or .mongodb)]
+
+  Options:
+
+    -h, --help                                 Show this usage information
+    -f, --file [arg]                           Load the specified mongosh script
+        --host [arg]                           Server to connect to
+        --port [arg]                           Port to connect to
+        --build-info                           Show build information
+        --version                              Show version information
+        --quiet                                Silence output from the shell during the connection process
+        --shell                                Run the shell after executing files
+        --nodb                                 Don't connect to mongod on startup - no 'db address' [arg] expected
+        --norc                                 Will not run the '.mongoshrc.js' file on start up
+        --eval [arg]                           Evaluate javascript
+        --json[=canonical|relaxed]             Print result of --eval as Extended JSON, including errors
+        --retryWrites[=true|false]             Automatically retry write operations upon transient network errors (Default: true)
+
+  Authentication Options:
+
+    -u, --username [arg]                       Username for authentication
+    -p, --password [arg]                       Password for authentication
+        --authenticationDatabase [arg]         User source (defaults to dbname)
+        --authenticationMechanism [arg]        Authentication mechanism
+        --awsIamSessionToken [arg]             AWS IAM Temporary Session Token ID
+        --gssapiServiceName [arg]              Service name to use when authenticating using GSSAPI/Kerberos
+        --sspiHostnameCanonicalization [arg]   Specify the SSPI hostname canonicalization (none or forward, available on Windows)
+        --sspiRealmOverride [arg]              Specify the SSPI server realm (available on Windows)
+
+  TLS Options:
+
+        --tls                                  Use TLS for all connections
+        --tlsCertificateKeyFile [arg]          PEM certificate/key file for TLS
+        --tlsCertificateKeyFilePassword [arg]  Password for key in PEM file for TLS
+        --tlsCAFile [arg]                      Certificate Authority file for TLS
+        --tlsAllowInvalidHostnames             Allow connections to servers with non-matching hostnames
+        --tlsAllowInvalidCertificates          Allow connections to servers with invalid certificates
+        --tlsCertificateSelector [arg]         TLS Certificate in system store (Windows and macOS only)
+        --tlsCRLFile [arg]                     Specifies the .pem file that contains the Certificate Revocation List
+        --tlsDisabledProtocols [arg]           Comma separated list of TLS protocols to disable [TLS1_0,TLS1_1,TLS1_2]
+        --tlsUseSystemCA                       Load the operating system trusted certificate list
+        --tlsFIPSMode                          Enable the system TLS library's FIPS mode
+
+  API version options:
+
+        --apiVersion [arg]                     Specifies the API version to connect with
+        --apiStrict                            Use strict API version mode
+        --apiDeprecationErrors                 Fail deprecated commands for the specified API version
+
+  FLE Options:
+
+        --awsAccessKeyId [arg]                 AWS Access Key for FLE Amazon KMS
+        --awsSecretAccessKey [arg]             AWS Secret Key for FLE Amazon KMS
+        --awsSessionToken [arg]                Optional AWS Session Token ID
+        --keyVaultNamespace [arg]              database.collection to store encrypted FLE parameters
+        --kmsURL [arg]                         Test parameter to override the URL of the KMS endpoint
+
+  DB Address Examples:
+
+        foo                                    Foo database on local machine
+        192.168.0.5/foo                        Foo database on 192.168.0.5 machine
+        192.168.0.5:9999/foo                   Foo database on 192.168.0.5 machine on port 9999
+        mongodb://192.168.0.5:9999/foo         Connection string URI can also be used
+
+  File Names:
+
+        A list of files to run. Files must end in .js and will exit after unless --shell is specified.
+
+  Examples:
+
+        Start mongosh using 'ships' database on specified connection string:
+        $ mongosh mongodb://192.168.0.5:9999/ships
+
+  For more information on usage: https://docs.mongodb.com/mongodb-shell.
+[?2004hroot@830d5c9e9ec9:/# mongosh --help     u the_username
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Enter password: *******   ********
+Current Mongosh Log ID:	666c15cf527c19bd6aa26a12
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+MongoServerError: Authentication failed.
+[?2004hroot@830d5c9e9ec9:/# mongosh -u the_username
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Enter password: ************
+Current Mongosh Log ID:	666c15db281dab46b6a26a12
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+MongoServerError: Authentication failed.
+[?2004hroot@830d5c9e9ec9:/# mongosh -u the_username
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Enter password: ************
+Current Mongosh Log ID:	666c15f94a17dc71c7a26a12
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+MongoServerError: Authentication failed.
+[?2004hroot@830d5c9e9ec9:/# mongosh -u the_username -p the_password
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	666c160edc2fa26681a26a12
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+MongoServerError: Authentication failed.
+[?2004hroot@830d5c9e9ec9:/# mongosh -u the_username -p the_password the_databs ase
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/the_database?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	666c162bde87a7da2da26a12
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/the_database?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6[0m
+Using MongoDB:		7.0.11
+[1m[33mUsing Mongosh[0m:		2.2.6
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+[1G[0J [1G[1G[0Jthe_database> [15Gshow dbs?
+Uncaught [1m[31mMongoshInvalidInputError[0m: [COMMON-10001] 'dbs?' is not a valid argument for "show".
+[1G[0Jthe_database> [15Gshow dbs
+[1mthe_database[0m  40.00 KiB
+[1G[0Jthe_database> [15Guse the [1G[0Jthe_database> use the[22G_database
+already on db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find({}_
+Uncaught:
+[1m[31mSyntaxError[0m: Unexpected token, expected "," (1:16)
+
+[0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39mtodos[33m.[39mfind({}_[0m
+[0m [90m   |[39m                 [31m[1m^[22m[39m[0m
+[0m [90m 2 |[39m[0m
+
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({}_[32G[1G[0Jthe_database> db.todos.find({}[31G)
+[
+  {
+    _id: ObjectId([32m'666c1570c5acb5e3a9a26a13'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'666c1570c5acb5e3a9a26a14'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insert({})[1G[0Jthe_database> db.todos.insert[30G[1G[0Jthe_database> db.todos.[24GinsertOne({ text[33mtext[39m: [32m"[39m[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [42G[32m'[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ms[39m[32me[39m[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Incres[39m[49G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Incre[39m[48G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Incr[39m[47G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Inc[39m[46G[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m[32mm[39m [1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools inm[39m[75G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools in[39m[74G [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m [32mb[39m[32me[39m[32ml[39m[32mt[39m[32m'[39m; [1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my tool belt'[39m;[89G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my tool belt'[39m[88G, d[36mdo[39mdonw[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m'Increase the number of tools in my tool belt'[39m, don[93Ge: fals[33mfalse[39m })
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'666c169cde87a7da2da26a13'[39m)
+}
+[1G[0Jthe_database> [15Gdb.c[1G[0Jthe_database> db.[18Gtodos.s[1G[0Jthe_database> db.todos.[24Gfind(}[1G[0Jthe_database> db.todos.find([29G{})
+[
+  {
+    _id: ObjectId([32m'666c1570c5acb5e3a9a26a13'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'666c1570c5acb5e3a9a26a14'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'666c169cde87a7da2da26a13'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G
+[?2004hroot@830d5c9e9ec9:/# [?2004l
+exit
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug todo-backend-mongo-1[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[2m⏎(B[m                                                                                                                       ⏎ [K[?2004h]0;fish /home/wngtk/dev/web/part12-containers-applications/todo-app/todo-backend[30m(B[m[32m~/d/w/p/t/todo-backend(B[m $ [K[25C
+[30m(B[m[30m(B[m[?2004l
+Script done on 2024-06-14 18:08:47+08:00 [COMMAND_EXIT_CODE="0"]
