@@ -2,8 +2,13 @@ const redis = require('redis')
 const { promisify } = require('util')
 const { REDIS_URL } = require('../util/config')
 
-let getAsync
-let setAsync
+let getAsync = function (key) {
+    return this.get(key)
+}
+
+let setAsync = function (key, value) {
+    this.set(key, value)
+}
 
 if (!REDIS_URL) {
   const redisIsDisabled = () => {
