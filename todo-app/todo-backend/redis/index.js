@@ -6,8 +6,8 @@ let getAsync = function (key) {
     return this.get(key)
 }
 
-let setAsync = function (key, value) {
-    this.set(key, value)
+let setAsync = async function (key, value) {
+    await this.set(key, value)
 }
 
 if (!REDIS_URL) {
