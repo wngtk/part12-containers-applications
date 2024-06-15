@@ -9,3 +9,6 @@ services:
       - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
     depends_on:
       - app
+      - express-app
+  express-app:
+    image: todo-backend-dev
