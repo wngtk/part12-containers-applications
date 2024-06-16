@@ -7,7 +7,8 @@ RUN npm install && npm run test
 FROM node:20 AS build_stage
 WORKDIR /usr/src/app
 COPY --from=testing_stage /usr/src/app/ .
-ENV VITE_BACKEND_URL=http://localhost:3000
+ARG VITE_BACKEND_URL
+ENV VITE_BACKEND_URL=${VITE_BACKEND_URL}
 RUN npm run build
 
 
